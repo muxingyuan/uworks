@@ -1,348 +1,79 @@
-    1  hello
-    2  list
+#Xingyuan: I am surprised that git remembers command lines before today!  so I edit them and reserve some representative ones for my further practice.
     3  ls
-    4  quit
-    5  exit
-    6  dir
     7  pwd
     8  clear
-    9  pwd
-   10  ls
    11  cd documents
-   12  ls
-   13  cd documents
-   14  cd ..
-   15  cd Documents
-   16  ls
-   17  cd ..
-   18  ls
-   19  LS
-   20  cd documents
-   21  ls
-   22  cd d:
-   23  cd ..
-   24  ls
-   25  cd ..
-   26  ls
-   27  cd ..
-   28  ls
-   29  cd ..
-   30  ls
-   31  cd d:
-   32  cd c
-   33  ls
-   34  cd users
-   35  cd admin
-   36  ls
-   37  cd documents
-   38  ls
-   39  ls
    40  git clone https://github.com/jobready123/coop2101.git
-   41  git clone https://github.com/jobready123/coop2101.git
-   42  git clone https://github.com/jobready123/coop2101.git
    43  git pull
    44  git branch --all
    45  git branch coop_initsetup
-   46  git pull
-   47  git pull https://github.com/jobready123/coop2101.git
-   48  ls
-   49  cd coop2101
-   50  pull
-   51  git pull
-   52  ls
-   53  mod test.txt
-   54  ls
-   55  cp test.txt test1.txt
-   56  ls
-   57  gedit test.txt
    58  git edit test.txt
    59  git status
    60  git add new_test.txt
    61  git add text1.txt
    62  git commit -m'a new file'
    63  git push
-   64  exit
-   65  cd g:
-   66  cd G:\Python R\coop\w51 KNN, Decision Tree
-   67  cd "G:\Python R\coop\w51 KNN, Decision Tree"
-   68  git pull
-   69  git pull origin master
    70  git branch
-   71  --allow-unrelated-histories
-   72  git pull origin master --allow-unrelated-histories
-   73  g:
-   74  cd g:
-   75  cd G:\Python R\coop\w51 KNN, Decision Tree
-   76  git pull origin master --allow-unrelated-histories -m 'test string'
-   77  git status
-   78  cd "G:\Python R\coop\w51 KNN, Decision Tree"
-   79  git pull origin master --allow-unrelated-histories -m 'test string'
-   80  git pull origin master --edit
-   81  git pull
-   82  git pull
-   83  git status
-   84  git add --all
-   85  g:
-   86  cd g:
-   87  cd 
-   88  git config --global core.safecrlf false
-   89  git status
-   90  git add --all
-   91  git add --all
-   92  git add --all
-   93  git status
-   94  git add --all
-   95  git status
-   96  git status
-   97  git add --all
-   98  git status
-   99  git add --all
-  100  git status
-  101  git reset
-  102  git status
-  103  git status
-  104  git add test.txt
-  105  git status
-  106  git commit -m 'test push'
-  107  git push
-  108  git status
-  109  git pull
-  110  git status
-  111  git add testagain.txt
-  112  git commit -m '2nd day test'
-  113  git add TESTAGAIN
-  114  git add TESTAGAIN.TXT
-  115  GIT STATUS
-  116  git status
-  117  git commit -m '2nd day test'
-  118  git add
-  119  git add .
-  120  git status
-  121  git clone https://alstonyan@bitbucket.org/alston_personal_1/course_v5.git
-  122  ls
-  123  dir
-  124  dir
-  125  cd ..
-  126  dir
-  127  cd user
-  128  dir
-  129  cd ..
-  130  dir
-  131  cd c/users
-  132  cd c
-  133  cd users
-  134  dir
-  135  cd default
-  136  dir
-  137  cd ~
-  138  dir
-  139  pwd
-  140  cd ..
-  141  dir
-  142  cd admin
-  143  cd ~
-  144  pwd
-  145  cd ..
-  146  cd admin
-  147  pwd
-  148  dir
-  149  cd ~
-  150  dir
-  151  clear
-  152  pwd
-  153  mkdir git_demo
-  154  dir
-  155  cd git_medo
-  156  cd git_demo
-  157  dir
-  158  git demo
-  159  dir
-  160  git init demo
-  161  dir
-  162  cd demo
-  163  dir
-  164  git status
-  165  touch test.txt
-  166  dir
-  167  git status
-  168  git add test.txt
-  169  git status
-  170  git commit -m "my first commit for example Jira ticket oo1"
-  171  git status
-  172  dir
-  173  dir -a
-  174  dir -al
-  175  cd .git
-  176  dir -al
-  177  cd ..
-  178  rm -rf .git
-  179  git status
-  180  dir
-  181  dir
-  182  clear
-  183  git init .
-  184  dir
-  185  dir -al
-  186  git status
   187  touch licence.md
   188  cat licence.md
-  189  git status
-  190  git add .
-  191  git status
-  192  git commit 
-  193  git log
-  194  git show
-  195  git status
-  196  ll
-  197  vim test.txt
-  198  git status
-  199  git ls-files
-  200  ll
-  201  touch anewfile.txt
-  202  git ls-files
-  203  ll
-  204  git status
-  205  rm anewfile.txt
-  206  git status
-  207  ll
-  208  git commit -am "update test.txt"
-  209  git status
-  210  vim test.txt
-  211  git add .
-  212  git config --global
-  213  git config --global alias.hist
-  214  clear
-  215  mv test.txt text.txt
-  216  git status
-  217  git status
-  218  git add .
-  219  git status
-  220  git commit
-  221  git status
-  222  ll
-  223  git mv licence.md license.md
-  224  git status
-  225  git add
-  226  git add .
-  227  git status
-  228  git commit
-  229  git status
-  230  lls
-  231  ll
-  232  clear
-  233  vim .gitignore
-  234  git status
-  235  touch tech.py
-  236  git status
-  237  git add .gitignore
-  238  git commit -m "add ignore file"
-  239  git status
-  240  git list-files
-  241  git list-files
-  242  git ls-files
-  243  ll
-  244  ll -al
-  245  clear
-  246  pwd
-  247  git status
-  248  git log
-  249  git diff help
-  250  git diff --help
-  251  git diff
-  252  ll
-  253  vim text.txt
-  254  git diff
-  255  git difftool
-  256  clear
-  257  git status
-  258  git branch
-  259  git checkout -b branch-dev
-  260  git status
-  261  git add .
-  262  git commit -m "adding updates to branch-dev"
-  263  git status
   264  git hist
   265  git log
-  266  git diff
-  267  git diff branch-dev master
-  268  git checkout master
-  269  git status
   270  git merge branch-dev
   271  cat text.txt
-  272  git status
-  273  git branch -d branch-dev
-  274  git branch
-  275  clear
-  276  git status
-  277  cat text.txt
-  278  git checkout -b new-branch
-  279  git branch
-  280  vim text.txt
-  281  git commit -am "new branch conflict"
   282  git checkout master
-  283  git status
-  284  vim text.txt
   285  git commit -am "caused some issue"
-  286  git status
-  287  git diff new-branch
-  288  git merge new-branch
-  289  cat text.txt
-  290  git mergetool
-  291  git status
-  292  git add .
-  293  git commit -m "conflict between master and new-branch solved"
-  294  git status
-  295  git log
-  296  cat text.txt
-  297  vim text.txt
-  298  cat text.txt
   299  history -a > text.txt
   300  cat text.txt
   301  history
   302  history > text.txt
   303  cat text.txt
-  304  history -a
-  305  git clone https://alstonyan@bitbucket.org/alston_personal_1/course_v6.git
-  306  git init
-  307  git add uworks
-  308  dir
-  309  ls -a
-  310  ls -al
+
+#Xingyuan: July 17 starts
+#Xingyuan: this is more than 2 hours continuous work, plus 4 hours during the day before this wandering around github and other stacks to try start today's work.
+
   311  git help
+#Xingyuan: below quick start commands, thanks to: https://www.theserverside.com/blog/Coffee-Talk-Java-News-Stories-and-Opinions/How-to-push-an-existing-project-to-GitHub
   312  git init
-  313  git init
   314  git add .
   315  git commit -m "Add my Vanier ACS Project to Git"
   316  git remote add origin https://github.com/muxingyuan/uworks.git
   317  git push -u -f origin master
-  318  git remote -v
-  319  git remote remove origin
-  320  git remote add origin git@github.com:muxingyuan/uworks.git
-  321  gpg --list-secret-keys --keyid-format=long
-  322  TOKEN = "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"
-  323  TOKEN="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"
+
+#Xingyuan: get trouble of Authentication, visit various techtips to solve it
+#Xingyuan: TAK token expired, generate new token
+  323  TOKEN=xxx
   324  export TOKEN
   325  echo TOKEN
-  326  echo $TOKEN
-  327  git config --global --unset credential.helper
-  328  git push -u -f origin master
   329  git config
   330  git config user.name "muxingyuan"
   331  git config user.password $TOKEN
-  332  git init
-  333  git add .
-  334  git  commit -m "Add my Vanier ACS Project to github."
-  335  git remote add origin https://github.com/muxingyuan/uworks.git
-  336  git push -u -f origin master
-  337  git push -u -f origin master
+
+#Xingyuan: after taking care of token, try to complete the commit
+  332  git init #find it is unnecessary
+  333  git add . #find it is unnecessary
+  334  git  commit -m "Add my Vanier ACS Project to github." #find it is unnecessary
+  335  git remote add origin https://github.com/muxingyuan/uworks.git #invalid
+  336  git push -u -f origin master #not successful
+  
+#Xingyuan: origin was changed during problem-solving process of token problem,
+#Xingyuan: it turns that I need to remove origin and reset it.
   338  git remote -v
   339  git remote remove origin
   340  git remote -v
   341  git remote add origin https://github.com/muxingyuan/uworks.git
   342  git remote -v
-  343  git push -u -f origin master
-  344  echo history 
-  345  tee log.txt
-  346  echo $HISTORY
+  343  git push -u -f origin master #success
+  
+#Xingyuan: want to reserve these command lines which is previous for me as a starter.
   347  history
   348  history > july17_command_lines.txt
+  349  ls -al
+  
+#Xingyuan: command lines save to a txt file and commit it.
+  350  add .
+  351  git commit -m "Add July 17 command line, this is very useful for starter of github."
+  
+#Xingyuan: since git push -u -p still prompts me for token, I want to find a nice way of telling git my token by a system variable
+#Xingyuan: i viewed git push -help, but didn't find
+  352  git push -help
+  353  git push -u -f orgigin master  #success

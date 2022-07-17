@@ -1,0 +1,89 @@
+
+body {
+    width: 1020px;
+    margin: 2px;
+    padding: 5px;
+    background-color: #fff;
+    color: #444;
+    font: 1.4em Kameron, sans-serif;
+    float: left;
+}
+
+aside {
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 30%;
+    background-color: lightgray;
+    padding: 5px 20px;
+}
+
+.grid {
+    width: 1020px;
+    height: 40px;
+    display: grid ;
+    grid-template-columns: repeat(5, auto);
+    grid-auto-rows: repeat(2,auto);
+    grid-gap: 0px;
+    position: sticky;
+    top: 0em;
+    left: 5em;
+    text-color: black;
+}
+
+.grid > div {
+    padding: 2px;
+    border: 0px solid rgb(198,200,154);
+    background-color: darkorange;
+    text-color: black;
+    text-align: center;
+}
+
+.zero {
+    grid-column: 1 / 4;
+}
+
+.one1 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.one2 {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+a.abnormal {
+    color: black;
+    text-decoration: none;
+
+}
+
+h1 {
+    font: 2.8em Sansita, sans-serif;
+    margin: 0;
+}
+
+dt {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: coral;
+}
+
+table, td, th {
+    border-width: 2px;
+    border-style: solid;
+    border-color: green;
+    border-collapse: collapse;
+    padding: 3px;
+}
+
+.error {
+    color: red;
+    background-color: yellow;
+}
+
+.alert {
+    color: white;
+    background-color: green;
+}

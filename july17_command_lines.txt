@@ -64,7 +64,7 @@
   342  git remote -v
   343  git push -u -f origin master #success
   
-#Xingyuan: want to reserve these command lines which is previous for me as a starter.
+#Xingyuan: want to reserve these command lines which is precious for me as a starter.
   347  history
   348  history > july17_command_lines.txt
   349  ls -al
